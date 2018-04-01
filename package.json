@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "concurrently 'npm run server' 'npm run build:styles:watch'",
     "server": "php -S 0.0.0.0:5000 -t .",
+    "bundle:scripts": "webpack --mode production",
+    "bundle:scripts:watch": "webpack --mode development -w",
     "build:styles": "postcss -c .postcssrc.js src/index.css -o wp-content/themes/project-theme/index.css",
     "build:styles:watch": "postcss -c .postcssrc.js -w src/index.css -o wp-content/themes/project-theme/index.css",
     "db:create": "mysql -u root < materials/database.sql"
