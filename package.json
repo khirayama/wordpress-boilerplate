@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "npm run server",
     "server": "php -S 0.0.0.0:5000 -t .",
+    "build:styles": "postcss -c .postcssrc.js src/index.css -o wp-content/themes/custom/index.css",
+    "build:styles:watch": "postcss -c .postcssrc.js -w src/index.css -o wp-content/themes/custom/index.css",
     "db:create": "mysql -u root < materials/database.sql"
   },
   "author": "",
