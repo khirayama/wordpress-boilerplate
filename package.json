@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "concurrently 'npm run server' 'npm run build:styles:watch'",
+    "dev": "concurrently 'npm run server' 'npm run build:styles:watch' 'npm run bundle:scripts:watch'",
+    "build": "concurrently 'npm run build:styles' 'npm run bundle:scripts' && npm run zip",
     "server": "php -S 0.0.0.0:5000 -t .",
+    "zip": "(cd wp-content/themes && zip -r ../../project-theme.zip project-theme)",
     "bundle:scripts": "webpack --mode production",
     "bundle:scripts:watch": "webpack --mode development -w",
     "build:styles": "postcss -c .postcssrc.js src/index.css -o wp-content/themes/project-theme/index.css",
