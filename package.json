@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "8.2.0",
     "postcss-cli": "5.0.0",
     "postcss-easy-import": "3.0.0",
     "postcss-nested": "3.0.0",
