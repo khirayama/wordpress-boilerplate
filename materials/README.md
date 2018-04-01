@@ -11,8 +11,6 @@ repo:
 
 ## SSH
 
-## Dev
-
 ## Config
 
 ## Memo
