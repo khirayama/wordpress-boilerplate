@@ -8,5 +8,11 @@
     "db:create": "mysql -u root < materials/database.sql"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-cli": "5.0.0",
+    "postcss-easy-import": "3.0.0",
+    "postcss-nested": "3.0.0",
+    "postcss-simple-vars": "4.1.0"
+  }
 }
