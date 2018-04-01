@@ -11,5 +11,6 @@ module.exports = {
     'autoprefixer': {
       browsers: ['last 8 versions'],
     },
+    'cssnano': null,
   },
 };
