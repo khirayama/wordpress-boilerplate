@@ -9,3 +9,9 @@ Now it will make `wordpress_boilerplate` database.
 
 - `/wp-config.php`
 - `/materials/database.sql`
+
+## Development
+
+```
+$ npm run dev
+```
