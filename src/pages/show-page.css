@@ -1,0 +1,11 @@
+.show-page {
+  background: $color-background;
+
+  .show-page--content {
+    margin: 24px auto;
+    max-width: $width-content;
+    padding: 24px 48px;
+    background: $color-background-content;
+    box-shadow: 0 1px 1px 1px $color-shadow;
+  }
+}
