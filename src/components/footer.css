@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  background: $color-white;
+  border-top: solid 1px $color-divider;
+
+  .footer--content {
+    max-width: $width-content;
+    margin: 0 auto;
+    padding: 12px 48px;
+    text-align: center;
+  }
+}
