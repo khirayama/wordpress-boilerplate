@@ -1,3 +1,13 @@
+## Support Features
+
+- [x] Top Pgae
+- [ ] Show Pgae
+- [ ] Static Pgae
+- [ ] Search Pgae
+- [ ] Social Plugin
+- [ ] Navigation
+- [ ] Breadcrumb
+
 ## Setup
 
 ```
