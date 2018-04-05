@@ -29,5 +29,5 @@ body {
 .page {
   width: 100%;
   overflow: hidden;
-  background: red;
+  background: $color-background;
 }
