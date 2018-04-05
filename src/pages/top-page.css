@@ -1,0 +1,9 @@
+.top-page {
+  background: $color-white;
+
+  .top-page--content {
+    margin: 0 auto;
+    max-width: $width-content;
+    padding: 24px 48px;
+  }
+}
