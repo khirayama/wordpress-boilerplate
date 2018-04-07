@@ -7,3 +7,8 @@
 <?php if (is_single()) { ?>
   <?php get_template_part('pages/show-page') ?>
 <?php } ?>
+
+<!-- search post page -->
+<?php if (is_search()) { ?>
+  <h1>Search Result</h1>
+<?php } ?>
