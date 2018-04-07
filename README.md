@@ -1,7 +1,7 @@
 ## Support Features
 
 - [x] Top Pgae
-- [ ] Show Pgae
+- [x] Show Pgae
 - [ ] Static Pgae
 - [ ] Search Pgae
 - [ ] Social Plugin
