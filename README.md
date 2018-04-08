@@ -2,8 +2,8 @@
 
 - [x] Top Pgae
 - [x] Show Pgae
+- [x] Search Pgae
 - [ ] Static Pgae
-- [ ] Search Pgae
 - [ ] Social Plugin
 - [ ] Navigation
 - [ ] Breadcrumb
