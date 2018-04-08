@@ -10,5 +10,5 @@
 
 <!-- search post page -->
 <?php if (is_search()) { ?>
-  <h1>Search Result</h1>
+  <?php get_template_part('pages/search-page') ?>
 <?php } ?>
