@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header--content">
-    <h1>PROJECT THEME</h1>
+    <h1><a href="/">PROJECT THEME</a></h1>
 
       <form role="search" method="get" action="/" >
         <input type="text" value="" name="s" placeholder="Keywords"/>
