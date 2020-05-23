@@ -7,6 +7,9 @@ repo:
 
 ## WordPress
 
+test-user
+LNb2M%dw*yj75z6UyO
+
 ## GoogleAnalytics
 
 ## SSH

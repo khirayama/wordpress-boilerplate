@@ -20,9 +20,15 @@ function compressImage(filePath) {
   const dist = tmpDist.join('/').replace(ROOT_DIR, DIST_DIR);
   imagemin([filePath], dist, {
     plugins: [
-      imageminJpegtran(),
+      imageminJpegtran({
+        progressive: true,
+      }),
+    ],
+  });
+  imagemin([filePath], dist, {
+    plugins: [
       imageminPngquant({
-        quality: '60-70',
+        quality: [0.6, 0.7],
       }),
     ],
   });
